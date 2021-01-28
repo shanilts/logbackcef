@@ -24,8 +24,8 @@ public class ResourceController {
 	@RequestMapping("/home")
 	public String home() throws FileNotFoundException, IOException, XmlPullParserException {
 
-		log.info(cefLog.setDeviceEventClassID("112").setMessage("INFO information logged:").setSeverity("high")
-				.setName(log.getName()).log());
+//		log.info(cefLog.setDeviceEventClassID("112").setMessage("INFO information logged:").setSeverity("high")
+//				.setName(log.getName()).log());
 //		
 //		try {
 //			int i=1/0;
@@ -37,7 +37,7 @@ public class ResourceController {
 		try {
 			int i = 1 / 0;
 		} catch (Exception e) {
-			log.error(eventClassId, " Error Occured Exception={}", e.getStackTrace(), e.getMessage());
+			log.error(eventClassId, " Error Occured Exception={}", (Object)e.getStackTrace());
 		}
 
 		log.error(eventClassId, "accessed error data={} data2={}", "first data", "second data");
