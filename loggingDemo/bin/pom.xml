@@ -53,28 +53,17 @@
 	</dependencies>
 
 	<build>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-				<includes>
-					<include>logback-spring.xml</include>
-				</includes>
-			</resource>
-
-		</resources>
+		<!-- <resources>
+        <resource>
+        <directory>src/main/resources/</directory>
+            <includes>
+                <include>src/main/resource/logback-spring.xml</include>
+            </includes>
+            <targetPath>some/outputpath/logback.xml</targetPath>
+            <filtering>true</filtering>
+        </resource>
+    </resources> -->
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<configuration>
-					<useDefaultDelimiters>false</useDefaultDelimiters>
-					<encoding>UTF-8</encoding>
-					<delimiters>
-						<delimiter>${*}</delimiter>
-					</delimiters>
-				</configuration>
-			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

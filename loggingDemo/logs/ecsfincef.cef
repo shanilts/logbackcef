@@ -1,44 +1,21 @@
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|INFO |com.shanil.ts.LoggingDemoApplication|msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 16392 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo)
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|DEBUG|com.shanil.ts.LoggingDemoApplication|msg=Running with Spring Boot v2.4.1, Spring v5.3.2
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|INFO |com.shanil.ts.LoggingDemoApplication|msg=No active profile set, falling back to default profiles: default
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|INFO |com.shanil.ts.LoggingDemoApplication|msg=Started LoggingDemoApplication in 1.634 seconds (JVM running for 2.343)
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|INFO |com.shanil.ts.ResourceController|msg=accessed info
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|WARN |com.shanil.ts.ResourceController|msg=accessed warn
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|ERROR|com.shanil.ts.ResourceController|msg=accessed error
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|DEBUG|com.shanil.ts.ResourceController|msg=accessed debug
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|TRACE|com.shanil.ts.ResourceController|msg=accessed trace
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 860 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo)
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 1.748 seconds (JVM running for 2.511)
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|INFO |msg=accessed info
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|WARN |msg=accessed warn
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|ERROR|msg=accessed error
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|DEBUG|msg=accessed debug
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|TRACE|msg=accessed trace
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 5584 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo)
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 1.675 seconds (JVM running for 2.378)
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 15596 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) relativetime=536 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 relativetime=539 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default relativetime=540 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 1.605 seconds (JVM running for 2.298) relativetime=1751 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|INFO |msg=accessed info relativetime=65907 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|WARN |msg=accessed warn relativetime=65907 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|ERROR|msg=accessed error relativetime=65907 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|DEBUG|msg=accessed debug relativetime=65907 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-1|com.shanil.ts.ResourceController|TRACE|msg=accessed trace relativetime=65907 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-2|com.shanil.ts.ResourceController|INFO |msg=accessed info relativetime=66425 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-2|com.shanil.ts.ResourceController|WARN |msg=accessed warn relativetime=66425 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-2|com.shanil.ts.ResourceController|ERROR|msg=accessed error relativetime=66425 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-2|com.shanil.ts.ResourceController|DEBUG|msg=accessed debug relativetime=66425 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|http-nio-8080-exec-2|com.shanil.ts.ResourceController|TRACE|msg=accessed trace relativetime=66425 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 4068 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) relativetime=553 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 relativetime=555 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default relativetime=556 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 1.567 seconds (JVM running for 2.279) relativetime=1729 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 16084 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) relativetime=564 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 relativetime=567 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default relativetime=568 
-CEF:1|ECSFIN|loggingDemo|project.version_IS_UNDEFINED|main|com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 1.614 seconds (JVM running for 2.327) relativetime=1759 
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT|112|com.shanil.ts.ResourceController|high|msg=Exception occured:/ by zero level=ERROR rt=1602440306000
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 22132 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) 01 28 2021 14:25:15
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 01 28 2021 14:25:15
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default 01 28 2021 14:25:15
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 3.97 seconds (JVM running for 7.498) 01 28 2021 14:25:18
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 19204 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) rt=01 28 2021 14:26:48
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 rt=01 28 2021 14:26:48
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default rt=01 28 2021 14:26:48
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 3.341 seconds (JVM running for 5.351) rt=01 28 2021 14:26:51
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 9844 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) rt=Jan 28 2021 14:28:09
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 rt=Jan 28 2021 14:28:09
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default rt=Jan 28 2021 14:28:09
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 3.42 seconds (JVM running for 4.808) rt=Jan 28 2021 14:28:12
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 12092 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) rt=Jan 28 2021 09:04:36
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 rt=Jan 28 2021 09:04:36
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default rt=Jan 28 2021 09:04:36
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 3.5 seconds (JVM running for 4.903) rt=Jan 28 2021 09:04:39
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Starting LoggingDemoApplication using Java 15 on LAPTOP-RODPBL05 with PID 16728 (C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo\target\classes started by shanil in C:\Users\shanil\Desktop\logging_\testingloggingprogram\loggingDemo) rt=Jan 28 2021 09:08:51 dtz=UTC 
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|DEBUG|msg=Running with Spring Boot v2.4.1, Spring v5.3.2 rt=Jan 28 2021 09:08:51 dtz=UTC 
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=No active profile set, falling back to default profiles: default rt=Jan 28 2021 09:08:51 dtz=UTC 
+CEF:1|ECSFIN|loggingDemo|0.0.1-SNAPSHOT||com.shanil.ts.LoggingDemoApplication|INFO |msg=Started LoggingDemoApplication in 3.546 seconds (JVM running for 4.945) rt=Jan 28 2021 09:08:54 dtz=UTC 

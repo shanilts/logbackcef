@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+ 
+    <property name="LOGS" value="./logs" />
+    <appender name="Console"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+            ${loggingDemo.version}  @project.artifact.id @version ${loggingDemo.artifact.id} ${version} ${project.version} ${project.artifact.id} CEF:1|ECSFIN|%X{nameofapplication:-loggingDemo}|${project.version}|%t|%logger{50}|%-5level|msg=%msg relativetime=%relative %n
+            </Pattern>
+        </layout>
+    </appender>
+ 
+    <appender name="RollingFile"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/ecsfincef.cef</file>
+        <encoder
+            class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <Pattern>%d %p %C{1.} [%t] %m%n</Pattern> -->
+            <Pattern>CEF:1|ECSFIN|%X{nameofapplication:-loggingDemo}|${project.version}|%t|%logger{50}|%-5level|msg=%msg relativetime=%relative %n </Pattern>
+            
+        </encoder>
+ 
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/ecsfincef-%d{yyyy-MM-dd}.%i.cef
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1GB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+
+     LOG everything at INFO level
+    <root level="info">
+        <appender-ref ref="Console" />
+    </root> 
+     
+    <!-- LOG "com.plantplaces.*" at TRACE level -->
+    <logger name="com.shanil.ts" level="trace" additivity="false">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="Console" />
+    </logger>
+ 
+</configuration>
